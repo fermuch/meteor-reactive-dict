@@ -1,7 +1,6 @@
-
 var EJSON = require('ejson');
 var _ = require('lodash');
-var Tracker = require('tracker');
+var Tracker = require('trackr');
 
 // XXX come up with a serialization method which canonicalizes object key
 // order, which would allow us to use objects as values for equals.

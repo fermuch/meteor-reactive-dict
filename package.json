@@ -1,6 +1,6 @@
 {
   "name": "reactive-dict",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package provide `ReactiveDict`, a general-purpose reactive\r datatype for use with\r [tracker](https://atmospherejs.com/meteor/tracker). It provides all of\r the functionality of the `Session` object documented in the [main\r Meteor docs](https://docs.meteor.com/#session), such as reactive\r `get`, `set`, and `equals` functions.",
   "main": "reactive-dict.js",
   "scripts": {
@@ -9,6 +9,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "ejson": "^2.0.1"
+    "ejson": "^2.0.1",
+    "lodash": "^4.13.1",
+    "trackr": "^2.0.2"
   }
 }
